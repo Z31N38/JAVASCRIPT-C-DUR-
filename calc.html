@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <script>
+         function changer() {
+let sum = document.getElementById("sum")
+sum.style.color = "red"}
+
+
+         function somme(){
+             var x, y, sum;
+            x = Number(document.getElementById("x").value);
+            y = Number(document.getElementById("y").value);
+             sum = x + y;
+             document.getElementById("sum").value = sum;
+            
+         }
+
+         
+      </script>
+      <script>
+        function changer() {
+        let sum = document.getElementById("sum")
+        sum.style.color = "red"
+        
+        }
+        </script>
+        
+   </head>
+   <body>
+      <input id="x"> + <input id="y">
+      <button onclick="somme()" >Result</button>
+      = <input id="sum"  ><button onclick="changer()">Changer couleur</button>
+   </body>
+</html>
